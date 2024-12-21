@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <style>
+        .container{
+            border: 2px solid black;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        input{
+            border-radius: 24px;
+            padding: 4px 8px;
+         
+        }
+        button{
+            cursor: pointer;
+            border-radius: 24px;
+            padding: 8px 42px;
+            border: none;
+            background-color: black;
+            color: white;
+        }
+        .cancel-btn{
+            background-color: #00000095;
+        }
+    </style> -->
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="index.html">Beli Bakso Cuy</a></h1>
+            <ul>
+                <li>
+                    <a href="login.html">
+                        Login
+                    </a>
+                </li>
+                <li>
+                    <a href="register.html">
+                        Register
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="form">
+            
+            <h2>Login</h2>
+            <div class="flex">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="flex">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <label for="remember"><input type="checkbox" name="remember" id="remember">Remember Me</label>
+            <div class="action">
+                <button class="btn-secondary">Cancel</button>
+                <button class="btn-primary" type="submit">Login</button>
+            </div>
+            <p>Don't have an account? <a href="register.html">Register Now</a></p>
+        </div>
+        
+    </main>
+    <footer>Copyright 2024 M. Rizki Reza Pahlevi</footer>
+    </body>
+    </html>

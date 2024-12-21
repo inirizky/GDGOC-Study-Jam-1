@@ -48,7 +48,7 @@ a {
 
 main {
   
-    height: 80vh;
+    min-height: 80vh;
     margin-bottom:24px;
     
 }
@@ -64,11 +64,17 @@ footer{
 }
 .container {
    padding: 24px 24px;
-    gap: 8px;
-    justify-content: space-between;
+    gap: 24px;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 
+}
+.card{
+    background-color: #e9e9e9;
+    padding: 16px;
+    border-radius: 10px;
+    width: 386px;
 }
 
 .form{
@@ -84,6 +90,10 @@ footer{
     flex-direction: column;
     gap: 4px;
     width: 100%;
+}
+
+.flex span{
+    font-weight: 600;
 }
 
 input {
@@ -144,4 +154,5 @@ img {
     height: 200px;
     object-fit: cover;
     object-position: center;
+    border-radius: 8px;
 }
